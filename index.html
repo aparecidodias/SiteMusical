@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MusicDias 🎧</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<!-- LOGIN -->
+
+<section id="loginScreen">
+
+    <div class="login-box">
+
+        <h1>🎧 MusicDias</h1>
+
+        <p>
+            Entre na sua plataforma musical.
+        </p>
+
+        <input
+            type="password"
+            id="passwordInput"
+            placeholder="Digite sua senha">
+
+        <button id="loginButton">
+            Entrar
+        </button>
+
+        <span id="errorMessage">
+            Senha incorreta.
+        </span>
+
+    </div>
+
+</section>
+
+<!-- LOADER -->
+
+<div id="loader">
+    <h1>🎵 MusicDias</h1>
+    <p>Carregando sua vibe...</p>
+</div>
+
+<!-- HEADER -->
+
+<header>
+
+    <div class="logo">
+        🎧 MusicDias
+    </div>
+
+    <nav>
+        <a href="index.html">Músicas</a>
+        <a href="videos.html">Vídeos</a>
+    </nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <span class="hero-tag">
+            Plataforma Musical Oficial
+        </span>
+
+        <h1>
+            Música para sentir.<br>
+            Não apenas ouvir.
+        </h1>
+
+        <p>
+            Uma coleção criada por Bruno Dias com emoção em cada verso.
+        </p>
+
+        <div class="hero-buttons">
+
+            <button id="themeToggle">
+                🌙 Alternar Tema
+            </button>
+
+            <a href="videos.html" class="video-btn">
+                🎬 Ir para Vídeos
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PESQUISA -->
+
+<section class="search-section">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Pesquisar música..."
+        aria-label="Pesquisar música">
+
+</section>
+
+
+
+
+
+<!-- MUSICAS -->
+
+<main class="container">
+
+    <div class="section-header">
+
+        <h2>
+            🔥 Em destaque
+        </h2>
+
+        <span>
+            12 músicas disponíveis
+        </span>
+
+    </div>
+
+    <div class="music-grid">
+
+        <!-- MÚSICA 1 -->
+        <div class="card">
+            <img src="img/No corre pela vida.jpg" alt="No corre pela vida">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>No corre pela vida</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica1.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+        <!-- MÚSICA 2 -->
+        <div class="card">
+            <img src="img/vivencia me fez.jpg" alt="Vivência me fez">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>Vivência me fez</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica2.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+        <!-- MÚSICA 3 -->
+        <div class="card">
+            <img src="img/hoje ela soma.jpg" alt="Hoje ela soma">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>Hoje ela soma</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica3.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+        <!-- MÚSICA 4 -->
+        <div class="card">
+            <img src="img/passos pequenos.jpg" alt="Menina de passos pequenos">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>Menina de passos pequenos</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica4.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+        <!-- MÚSICA 5 -->
+        <div class="card">
+            <img src="img/prioridade.jpg" alt="Prioridade de ninguém">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>Prioridade de ninguém</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica5.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+        <!-- MÚSICA 6 -->
+        <div class="card">
+            <img src="img/De longe eu te protejo.jpg" alt="De longe eu te protejo">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>De longe eu te protejo</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica6.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+        <!-- MÚSICA 7 -->
+        <div class="card">
+            <img src="img/vivo nessa ilusao.jpg" alt="Vivendo nessa ilusão">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>Vivendo nessa ilusão</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica7.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+        <!-- MÚSICA 8 -->
+        <div class="card">
+            <img src="img/Criadovazio.jpg" alt="Criado no vazio">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>Criado no vazio</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica8.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+        <!-- MÚSICA 9 -->
+        <div class="card">
+            <img src="img/tempo que não volta 3.jpeg" alt="Tempo que não volta">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>Tempo que não volta</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica9.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+        <!-- MÚSICA 10 -->
+        <div class="card">
+            <img src="img/era nos dois.jpg" alt="Era nós dois pelo mundo">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>Era nós dois pelo mundo</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica10.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+        <!-- MÚSICA 11 -->
+        <div class="card">
+            <img src="img/quase nos.jpg" alt="Quase nós">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>Quase nós</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica11.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+        <!-- MÚSICA 12 -->
+        <div class="card">
+            <img src="img/Um dia a gente se torna.jpg" alt="Um dia a gente se torna">
+            <div class="overlay"></div>
+            <div class="card-content">
+                <h3>Um dia a gente se torna</h3>
+                <p>Bruno Dias</p>
+                <audio controls>
+                    <source src="audio/musica12.mp3" type="audio/mpeg">
+                </audio>
+                <button class="btn">Curtir ❤️</button>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+<footer class="music-player">
+
+    <p id="currentMusic">
+        🎵 Nenhuma música tocando
+    </p>
+
+    <p>
+        © 2026 MusicDias | Desenvolvido por Bruno Dias 🚀
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
