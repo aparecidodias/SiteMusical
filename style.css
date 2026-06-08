@@ -446,3 +446,33 @@ audio:focus{
     background:#00c896 !important;
 
 }
+
+
+audio{
+    width:100%;
+    margin-top:10px;
+    display:block;
+    min-height:54px;
+}
+
+audio::-webkit-media-controls-panel{
+    width:100%;
+}
+
+@media(max-width:768px){
+
+    .card-content{
+        position:relative;
+        background:rgba(0,0,0,.75);
+    }
+
+    .card img{
+        height:300px;
+    }
+
+    audio{
+        width:100%;
+        min-height:60px;
+    }
+
+}

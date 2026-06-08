@@ -75,9 +75,6 @@ function handleLikeButtons(selector, likedClass, textOn, textOff) {
     });
 }
 
-handleLikeButtons(".btn", "liked", "Curtido 💖", "Curtir ❤️");
-handleLikeButtons(".video-like-btn", "video-liked", "Curtido 💚", "Curtir 🎬");
-
 // --- TEMA E OUTROS ---
 const toggle = document.getElementById("themeToggle");
 if (toggle) {
